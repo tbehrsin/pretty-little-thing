@@ -19,6 +19,12 @@ yarn ios
 yarn android
 ```
 
+# Tests (jest)
+
+```
+yarn test --coverage
+```
+
 # Caveats
 
 The test data contains a non-https URL for an image (the first product).
