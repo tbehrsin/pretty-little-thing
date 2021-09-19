@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useBasket adds items 1`] = `
+Array [
+  Object {
+    "count": 2,
+    "product": Object {
+      "colour": "Black",
+      "id": 1,
+      "img": "http://cdn-img.prettylittlething.com/9/0/a/a/90aa90903a135ee59594f47c7685aa7ef3046e44_cly8063_1.jpg?imwidth=1024",
+      "name": "Black Sheet Strappy Textured Glitter Bodycon Dress",
+      "price": 10,
+    },
+  },
+  Object {
+    "count": 1,
+    "product": Object {
+      "colour": "Stone",
+      "id": 2,
+      "img": "https://cdn-img.prettylittlething.com/3/6/5/a/365a5d1dce6a2b77b564379b302c9d83afccf33b_cmd2051_1.jpg?imwidth=1024",
+      "name": "Stone Ribbed Strappy Cut Out Detail Bodycon Dress",
+      "price": 4,
+    },
+  },
+]
+`;
+
+exports[`useBasket copies items array 1`] = `Array []`;
+
+exports[`useBasket copies items array 2`] = `Array []`;
+
+exports[`useBasket removes items 1`] = `
+Array [
+  Object {
+    "count": 1,
+    "product": Object {
+      "colour": "Black",
+      "id": 1,
+      "img": "http://cdn-img.prettylittlething.com/9/0/a/a/90aa90903a135ee59594f47c7685aa7ef3046e44_cly8063_1.jpg?imwidth=1024",
+      "name": "Black Sheet Strappy Textured Glitter Bodycon Dress",
+      "price": 10,
+    },
+  },
+  Object {
+    "count": 1,
+    "product": Object {
+      "colour": "Stone",
+      "id": 2,
+      "img": "https://cdn-img.prettylittlething.com/3/6/5/a/365a5d1dce6a2b77b564379b302c9d83afccf33b_cmd2051_1.jpg?imwidth=1024",
+      "name": "Stone Ribbed Strappy Cut Out Detail Bodycon Dress",
+      "price": 4,
+    },
+  },
+]
+`;
+
+exports[`useBasket removes items 2`] = `
+Array [
+  Object {
+    "count": 1,
+    "product": Object {
+      "colour": "Stone",
+      "id": 2,
+      "img": "https://cdn-img.prettylittlething.com/3/6/5/a/365a5d1dce6a2b77b564379b302c9d83afccf33b_cmd2051_1.jpg?imwidth=1024",
+      "name": "Stone Ribbed Strappy Cut Out Detail Bodycon Dress",
+      "price": 4,
+    },
+  },
+]
+`;
+
+exports[`useBasket totals are correct 1`] = `4`;
+
+exports[`useBasket totals are correct 2`] = `32.49`;
+
+exports[`useBasket totals are correct 3`] = `6.5`;
+
+exports[`useBasket totals are correct 4`] = `38.99`;
